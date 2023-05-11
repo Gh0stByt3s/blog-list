@@ -1,10 +1,11 @@
-POST http://localhost:3003/api/blogs
+PUT http://localhost:3003/api/blogs/645cb85e4f369351d3b1eab1
 Content-Type: application/json
 
 {
+
     "title": "New Blog",
     "author": "POT",
-    "url": "www.iampot.com",
+    "url": "www.potsiam.com",
     "likes": 2
-    
+
 }
